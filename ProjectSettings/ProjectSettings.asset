@@ -7,11 +7,11 @@ PlayerSettings:
   productGUID: 7c6d23cf1253a16468188ec7e8a779ed
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 0
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: JSoft
   productName: ToiletPaperClimb
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -151,7 +151,9 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Android: jang.JSoft.ToiletPaperClimb
+    Standalone: jang.JSoft.ToiletPaperClimb
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -537,7 +539,8 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLUseWasm: 0
   webGLCompressionFormat: 1
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    7: dUI_DoozyUI
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
@@ -624,7 +627,8 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: d0a1988f-942b-4713-8021-6e7fd280302c

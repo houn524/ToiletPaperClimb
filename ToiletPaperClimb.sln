@@ -1,12 +1,36 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToiletPaperClimb.Plugins", "ToiletPaperClimb.Plugins.csproj", "{9F3F9217-A046-915D-9EDB-DF1B450C8863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToiletPaperClimb", "ToiletPaperClimb.csproj", "{93822200-CF9C-5AC9-009C-BFA6735765D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToiletPaperClimb.Editor", "ToiletPaperClimb.Editor.csproj", "{9BC99E01-04D6-3343-F2BA-C51AD06C1702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToiletPaperClimb.Editor.Plugins", "ToiletPaperClimb.Editor.Plugins.csproj", "{C8565F99-8F3F-9664-CEB8-7855C4001B8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F3F9217-A046-915D-9EDB-DF1B450C8863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3F9217-A046-915D-9EDB-DF1B450C8863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3F9217-A046-915D-9EDB-DF1B450C8863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3F9217-A046-915D-9EDB-DF1B450C8863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93822200-CF9C-5AC9-009C-BFA6735765D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93822200-CF9C-5AC9-009C-BFA6735765D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93822200-CF9C-5AC9-009C-BFA6735765D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93822200-CF9C-5AC9-009C-BFA6735765D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC99E01-04D6-3343-F2BA-C51AD06C1702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC99E01-04D6-3343-F2BA-C51AD06C1702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC99E01-04D6-3343-F2BA-C51AD06C1702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC99E01-04D6-3343-F2BA-C51AD06C1702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8565F99-8F3F-9664-CEB8-7855C4001B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8565F99-8F3F-9664-CEB8-7855C4001B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8565F99-8F3F-9664-CEB8-7855C4001B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8565F99-8F3F-9664-CEB8-7855C4001B8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

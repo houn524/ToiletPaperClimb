@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Rock
   layers:
   - Default
   - TransparentFX
@@ -38,6 +39,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: ToiletPaper
+    uniqueID: 3395139675
+    locked: 0
+  - name: Player
+    uniqueID: 2078120233
+    locked: 0
+  - name: Rock
+    uniqueID: 3407915951
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
